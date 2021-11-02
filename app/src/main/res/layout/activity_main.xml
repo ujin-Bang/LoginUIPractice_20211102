@@ -91,6 +91,13 @@
             android:background="#FFFFFF" />
     </LinearLayout>
 
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="#808080"
+        android:text="로그인" />
+
 
 
 
