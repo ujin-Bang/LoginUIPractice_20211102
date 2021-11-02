@@ -47,6 +47,7 @@
                 android:layout_height="wrap_content"
                 android:background="#00000000"
                 android:hint="이메일"
+                android:inputType="textEmailAddress"
                 android:textColorHint="#DFDFDF"
                 android:textColor="#FFFFFF"/>
         </LinearLayout>
@@ -73,7 +74,7 @@
                 android:padding="5dp"
                 android:layout_width="30dp"
                 android:layout_height="30dp"
-                android:src="@drawable/id_icon"/>
+                android:src="@drawable/password_icon"/>
             <EditText
                 android:layout_marginStart="20dp"
                 android:layout_width="match_parent"
@@ -97,6 +98,40 @@
         android:layout_marginTop="20dp"
         android:backgroundTint="#808080"
         android:text="로그인" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:padding="10dp"
+            android:layout_height="wrap_content"
+            android:text="회원가입"
+            android:gravity="center"
+            android:textColor="#FFFFFF"/>
+
+        <TextView
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="#FFFFFF"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp" />
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:padding="10dp"
+            android:gravity="center"
+            android:layout_height="wrap_content"
+            android:text="비밀번호찾기"
+            android:textColor="#FFFFFF"/>
+
+
+
+    </LinearLayout>
 
 
 
